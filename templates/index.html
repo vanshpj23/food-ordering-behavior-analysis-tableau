@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Analytics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: #121212; color: #fff; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 60px; background: rgba(0,0,0,0.7); }
+        .logo { font-size: 24px; font-weight: bold; color: #ff5252; }
+        nav a { margin: 0 15px; color: #ccc; text-decoration: none; font-size: 16px; }
+        nav a:hover { color: #fff; }
+        .btn-get-started { background: #ff5252; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none; }
+        .hero { height: calc(100vh - 80px); display: flex; align-items: center; justify-content: space-between; padding: 0 60px; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat; }
+        .hero-content h1 { font-size: 48px; max-width: 600px; line-height: 1.2; margin-bottom: 20px; }
+        .hero-content p { font-size: 18px; max-width: 500px; color: #ddd; margin-bottom: 30px; }
+        .cta-btn { background: #ff5252; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; }
+        .key-insights { background: rgba(0,0,0,0.75); padding: 30px; border-radius: 8px; border-left: 4px solid #ff5252; }
+        .key-insights h3 { margin-bottom: 15px; color: #fff; }
+        .key-insights li { margin-bottom: 10px; color: #bbb; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Append.</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/story">Story</a>
+            <a href="/dashboard" class="btn-get-started">Get Started</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Food Ordering Analytics for Smarter Delivery</h1>
+            <p>Explore customer food ordering behaviour, cuisine demand, and delivery performance to optimize every order.</p>
+            <a href="/dashboard" class="cta-btn">View Dashboard</a>
+        </div>
+        <div class="key-insights">
+            <h3>Key Insights</h3>
+            <ul>
+                <li>Top cuisines by order volume and revenue</li>
+                <li>Peak order times across weekdays and weekends</li>
+                <li>Customer age group preferences by restaurant type</li>
+                <li>Impact of company type on meal time ordering patterns</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
